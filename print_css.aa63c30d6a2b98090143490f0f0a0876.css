@@ -1,0 +1,334 @@
+/**
+ * Colors
+ *
+ * Colors used in redbooth
+ *
+ * Styleguide Colors
+ */
+/* line 1, app/stylesheets/print/_base.scss */
+.l-panes-header,
+.tb-element-more,
+.tb-element-add,
+.tb-element-secondary-action,
+.form-cb,
+.cmenu,
+.tb-element-secondary-action,
+.tb-drag-zone,
+.tb-filter,
+.tb-blank-slate,
+.quick-create,
+.app-container__header,
+.app-container__chat,
+.tb-chat-windows,
+.l-panes-list,
+.tb-sticky-messages,
+.tb-stream-header--inline-create,
+.infinite-list-loading {
+  display: none !important;
+}
+
+/* line 23, app/stylesheets/print/_base.scss */
+.cb {
+  max-width: none;
+  margin: 10px;
+  border: 1px solid #d6d6d6;
+}
+
+/* line 29, app/stylesheets/print/_base.scss */
+.tb-comment-body {
+  display: block !important;
+}
+
+/* line 33, app/stylesheets/print/_base.scss */
+.l-panes {
+  overflow: visible;
+}
+
+/* line 35, app/stylesheets/print/_base.scss */
+.l-panes .app-content {
+  position: relative;
+  background: white;
+  margin-right: 0 !important;
+  left: 0 !important;
+}
+
+/* line 41, app/stylesheets/print/_base.scss */
+.l-panes .container,
+.l-panes .app-container {
+  overflow: visible;
+  height: auto;
+}
+
+/* line 46, app/stylesheets/print/_base.scss */
+.l-panes .l-panes-view,
+.l-panes .l-panes-wrapper {
+  overflow: visible;
+  position: relative;
+  top: 0;
+}
+
+/* line 52, app/stylesheets/print/_base.scss */
+.l-panes .l-panes-list,
+.l-panes .l-panes-content {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;
+  border: none;
+}
+
+/* line 62, app/stylesheets/print/_base.scss */
+.tb-full-expanded {
+  position: relative;
+}
+
+/* line 66, app/stylesheets/print/_base.scss */
+.tb-centered-block {
+  max-width: none;
+}
+
+/* line 1, app/stylesheets/print/_tasks.scss */
+.tb-stream-expandable .tb-element.tb-stream-header .tb-element-title {
+  padding-left: 0;
+}
+
+/* line 3, app/stylesheets/print/_tasks.scss */
+.tb-stream-expandable .tb-element.tb-stream-header .tb-element-title:before {
+  content: "";
+  display: none;
+}
+
+/* line 7, app/stylesheets/print/_tasks.scss */
+.tb-stream-expandable .tb-element.tb-stream-header .tb-element-title .tb-element-title-inner {
+  padding-left: 10px;
+}
+
+/* line 12, app/stylesheets/print/_tasks.scss */
+html:root .tb-custom-checkbox input[type="checkbox"] + span.tb-custom-form-control-element {
+  box-shadow: none;
+}
+
+/* line 16, app/stylesheets/print/_tasks.scss */
+.tb-kanban {
+  height: 100% !important;
+  background-color: white !important;
+}
+
+/* line 17, app/stylesheets/print/_tasks.scss */
+.tb-kanban .tb-kanban-zone {
+  overflow: visible !important;
+}
+
+/* line 19, app/stylesheets/print/_tasks.scss */
+.tb-kanban .tb-kanban-zone .tb-stream-group-wrapper {
+  height: auto !important;
+}
+
+/* line 25, app/stylesheets/print/_tasks.scss */
+.tb-kanban .tb-stream {
+  display: block !important;
+  page-break-inside: avoid;
+}
+
+/* line 29, app/stylesheets/print/_tasks.scss */
+.tb-kanban .tb-element--in-place-edit {
+  display: none !important;
+}
+
+/* line 1, app/stylesheets/print/_panes.scss */
+.tb-one-pane-content-left {
+  display: none;
+}
+
+/* line 5, app/stylesheets/print/_panes.scss */
+.tb-one-pane-content-right {
+  width: 90%;
+  margin: 0 auto;
+  background: white;
+  overflow: visible;
+  position: relative;
+}
+
+/* line 13, app/stylesheets/print/_panes.scss */
+.l-panes-content {
+  width: 100% !important;
+  box-shadow: none !important;
+}
+
+/* line 1, app/stylesheets/print/_dialog.scss */
+.tb-modal {
+  position: static !important;
+  overflow: inherit !important;
+  overflow-y: inherit !important;
+}
+
+/* line 7, app/stylesheets/print/_dialog.scss */
+.tb-modal-header {
+  display: none !important;
+}
+
+/* line 11, app/stylesheets/print/_dialog.scss */
+.tb-modal-backdrop {
+  background-color: white;
+  opacity: 1;
+}
+
+/* line 16, app/stylesheets/print/_dialog.scss */
+.tb-modal-dialog {
+  width: 100% !important;
+  margin-top: 0 !important;
+}
+
+/* line 21, app/stylesheets/print/_dialog.scss */
+.tb-modal-content {
+  box-shadow: none;
+}
+
+/* line 23, app/stylesheets/print/_dialog.scss */
+.tb-modal-content .cb {
+  border: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* line 28, app/stylesheets/print/_dialog.scss */
+.tb-modal-content .cb__header {
+  padding-top: 0;
+}
+
+/* line 38, app/stylesheets/print/_dialog.scss */
+.dialog-open .app-container__content {
+  display: none;
+}
+
+/* line 7, app/stylesheets/print/_custom-checkbox.scss */
+.tb-custom-form-control input[type="radio"],
+.tb-custom-form-control input[type="checkbox"] {
+  position: static !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+/* line 14, app/stylesheets/print/_custom-checkbox.scss */
+.tb-custom-form-control .tb-custom-form-control-element {
+  display: none !important;
+}
+
+@media print {
+  /* line 2, app/stylesheets/print/_chat.scss */
+  .tb-chat-windows {
+    display: none;
+  }
+}
+
+@media print {
+  /* line 10, stdin */
+  body {
+    overflow: visible;
+  }
+  /* line 14, stdin */
+  .hideOnPrint, .l-panes-header,
+  .tb-element-more,
+  .tb-element-add,
+  .tb-element-secondary-action,
+  .cmenu,
+  .tb-drag-zone,
+  .tb-filter,
+  .tb-blank-slate,
+  .quick-create,
+  .app-container__header,
+  .app-container__chat,
+  .l-panes-list,
+  .tether-enabled {
+    display: none !important;
+  }
+  /* line 19, stdin */
+  .fullWidthOnPrint {
+    width: 100% !important;
+    display: block !important;
+    position: static !important;
+    overflow: visible !important;
+  }
+  /* line 27, stdin */
+  .taskListsWrapper,
+  .contentScrollArea {
+    position: relative !important;
+    overflow: visible !important;
+  }
+  /* line 33, stdin */
+  .KanbanGrid,
+  .ReactVirtualized__Grid {
+    overflow: visible !important;
+    width: 0;
+  }
+  /* line 39, stdin */
+  .ReactVirtualized__Grid.KanbanGrid > .ReactVirtualized__Grid__innerScrollContainer {
+    transition: none !important;
+    width: 0;
+    overflow: visible;
+    margin: 0 !important;
+    overflow: visible !important;
+    height: auto !important;
+    display: block !important;
+  }
+  /* line 49, stdin */
+  .ReactVirtualized__Grid.KanbanGrid > .ReactVirtualized__Grid__innerScrollContainer > div {
+    display: block !important;
+    left: unset !important;
+    top: unset !important;
+    position: unset !important;
+    page-break-after: always !important;
+    -webkit-region-break-after: always !important;
+  }
+  /* line 58, stdin */
+  .ReactVirtualized__Grid.KanbanList > .ReactVirtualized__Grid__innerScrollContainer > div {
+    display: block !important;
+    left: unset !important;
+    top: unset !important;
+    position: unset !important;
+    page-break-inside: avoid !important;
+    -webkit-region-break-inside: avoid !important;
+  }
+  /* line 67, stdin */
+  .taskListHeader {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+}
+
+/* line 73, stdin */
+.l-panes {
+  overflow: visible;
+}
+
+/* line 75, stdin */
+.l-panes .app-content {
+  position: relative;
+  background: white;
+  margin-right: 0 !important;
+  left: 0 !important;
+}
+
+/* line 81, stdin */
+.l-panes .container,
+.l-panes .app-container {
+  overflow: visible;
+  height: auto;
+}
+
+/* line 86, stdin */
+.l-panes .l-panes-view,
+.l-panes .l-panes-wrapper {
+  overflow: visible;
+  position: relative;
+  top: 0;
+}
+
+/* line 92, stdin */
+.l-panes .l-panes-content {
+  width: 90%;
+  overflow: visible;
+  position: relative;
+}
+
+/*# sourceMappingURL=print_css.aa63c30d6a2b98090143490f0f0a0876.css.map*/
